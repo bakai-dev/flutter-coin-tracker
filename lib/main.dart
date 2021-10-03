@@ -1,3 +1,4 @@
+import 'package:c_tracker/cc_list.dart';
 import 'package:flutter/material.dart';
 
 // main
@@ -21,7 +22,7 @@ class CCTracker extends StatelessWidget{
       theme: ThemeData(
         primarySwatch: Colors.blue
       ),
-      home: Text('Hi'),
+      home: CCList(),
     );
   }
 }
